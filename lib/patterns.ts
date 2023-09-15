@@ -24,6 +24,7 @@ const files = {
     "repodata.json",
   ],
   "0.23.0": ["package.json", "pyodide.asm.js", "pyodide.asm.wasm", "repodata.json", "python_stdlib.zip"],
+  "0.24.0": ["package.json", "pyodide.asm.js", "pyodide.asm.wasm", "pyodide-lock.json", "python_stdlib.zip"],
 };
 export const versions = Object.keys(files);
 
